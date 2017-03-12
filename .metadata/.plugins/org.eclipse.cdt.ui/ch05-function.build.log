@@ -1,0 +1,6 @@
+17:48:37 **** Incremental Build of configuration Debug for project ch05-function ****
+Info: Internal Builder is used for build
+gcc -o ch05-function.exe "src\\Ex01.o" "src\\Ex02.o" "src\\Ex03.o" "src\\Ex04.o" "src\\Ex05.o" "src\\Ex06-localvariable.o" "src\\Ex07.o" "src\\Ex08.o" "src\\Ex09-globalvariable.o" "src\\Ex10-staticvar.o" "src\\Ex11-externvar.o" "src\\Ex12.o" "src\\Ex13.o" "src\\Ex14-resisterVar.o" "src\\Ex15.o" "src\\Ex16.o" "src\\Ex17.o" "src\\Ex18.o" "src\\Ex19.o" "src\\Ex20.o" "src\\ch05-function.o" 
+
+17:48:39 Build Finished (took 1s.416ms)
+

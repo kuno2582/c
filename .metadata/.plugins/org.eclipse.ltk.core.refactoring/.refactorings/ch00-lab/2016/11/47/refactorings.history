@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ch00-lab/src/sort&apos; to &apos;sort.c&apos;" description="Rename resource &apos;sort&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/sort" name="sort.c" stamp="1479015665084" updateReferences="true"/>
+</session>

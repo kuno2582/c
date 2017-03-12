@@ -1,0 +1,102 @@
+11:32:14 **** Rebuild of configuration Debug for project ch05-function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ch05-function.o" "..\\src\\ch05-function.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex05.o" "..\\src\\Ex05.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex12.o" "..\\src\\Ex12.c" 
+..\src\Ex12.c:9:12: warning: 'password' defined but not used [-Wunused-variable]
+ static int password=20162017;
+            ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex08.o" "..\\src\\Ex08.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex09.o" "..\\src\\Ex09.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex10.o" "..\\src\\Ex10.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex13.o" "..\\src\\Ex13.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex18.o" "..\\src\\Ex18.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex17.o" "..\\src\\Ex17.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex16.o" "..\\src\\Ex16.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex04.o" "..\\src\\Ex04.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex15.o" "..\\src\\Ex15.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex07.o" "..\\src\\Ex07.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex01.o" "..\\src\\Ex01.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex03.o" "..\\src\\Ex03.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex14.o" "..\\src\\Ex14.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex02.o" "..\\src\\Ex02.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex06.o" "..\\src\\Ex06.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex19.o" "..\\src\\Ex19.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex11.o" "..\\src\\Ex11.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex20.o" "..\\src\\Ex20.c" 
+gcc -o ch05-function.exe "src\\Ex01.o" "src\\Ex02.o" "src\\Ex03.o" "src\\Ex04.o" "src\\Ex05.o" "src\\Ex06.o" "src\\Ex07.o" "src\\Ex08.o" "src\\Ex09.o" "src\\Ex10.o" "src\\Ex11.o" "src\\Ex12.o" "src\\Ex13.o" "src\\Ex14.o" "src\\Ex15.o" "src\\Ex16.o" "src\\Ex17.o" "src\\Ex18.o" "src\\Ex19.o" "src\\Ex20.o" "src\\ch05-function.o" 
+Info: Nothing to build for ch05-function
+Info: Nothing to build for ch05-function
+11:32:54 **** Incremental Build of configuration Debug for project ch05-function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex04.o" "..\\src\\Ex04.c" 
+..\src\Ex04.c: In function 'main':
+..\src\Ex04.c:19:6: warning: implicit declaration of function 'max' [-Wimplicit-function-declaration]
+  k = max(i, j);
+      ^
+gcc -o ch05-function.exe "src\\Ex01.o" "src\\Ex02.o" "src\\Ex03.o" "src\\Ex04.o" "src\\Ex05.o" "src\\Ex06.o" "src\\Ex07.o" "src\\Ex08.o" "src\\Ex09.o" "src\\Ex10.o" "src\\Ex11.o" "src\\Ex12.o" "src\\Ex13.o" "src\\Ex14.o" "src\\Ex15.o" "src\\Ex16.o" "src\\Ex17.o" "src\\Ex18.o" "src\\Ex19.o" "src\\Ex20.o" "src\\ch05-function.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ch05-function.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:33:01 **** Incremental Build of configuration Debug for project ch05-function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex04.o" "..\\src\\Ex04.c" 
+gcc -o ch05-function.exe "src\\Ex01.o" "src\\Ex02.o" "src\\Ex03.o" "src\\Ex04.o" "src\\Ex05.o" "src\\Ex06.o" "src\\Ex07.o" "src\\Ex08.o" "src\\Ex09.o" "src\\Ex10.o" "src\\Ex11.o" "src\\Ex12.o" "src\\Ex13.o" "src\\Ex14.o" "src\\Ex15.o" "src\\Ex16.o" "src\\Ex17.o" "src\\Ex18.o" "src\\Ex19.o" "src\\Ex20.o" "src\\ch05-function.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ch05-function.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:33:08 **** Incremental Build of configuration Debug for project ch05-function ****
+Info: Internal Builder is used for build
+gcc -o ch05-function.exe "src\\Ex01.o" "src\\Ex02.o" "src\\Ex03.o" "src\\Ex04.o" "src\\Ex05.o" "src\\Ex06.o" "src\\Ex07.o" "src\\Ex08.o" "src\\Ex09.o" "src\\Ex10.o" "src\\Ex11.o" "src\\Ex12.o" "src\\Ex13.o" "src\\Ex14.o" "src\\Ex15.o" "src\\Ex16.o" "src\\Ex17.o" "src\\Ex18.o" "src\\Ex19.o" "src\\Ex20.o" "src\\ch05-function.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ch05-function.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:33:25 **** Incremental Build of configuration Debug for project ch05-function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex04.o" "..\\src\\Ex04.c" 
+..\src\Ex04.c: In function 'main':
+..\src\Ex04.c:19:6: warning: implicit declaration of function 'max' [-Wimplicit-function-declaration]
+  k = max(i, j);
+      ^
+gcc -o ch05-function.exe "src\\Ex01.o" "src\\Ex02.o" "src\\Ex03.o" "src\\Ex04.o" "src\\Ex05.o" "src\\Ex06.o" "src\\Ex07.o" "src\\Ex08.o" "src\\Ex09.o" "src\\Ex10.o" "src\\Ex11.o" "src\\Ex12.o" "src\\Ex13.o" "src\\Ex14.o" "src\\Ex15.o" "src\\Ex16.o" "src\\Ex17.o" "src\\Ex18.o" "src\\Ex19.o" "src\\Ex20.o" "src\\ch05-function.o" 
+17:31:58 **** Incremental Build of configuration Debug for project ch05-function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex04.o" "..\\src\\Ex04.c" 
+gcc -o ch05-function.exe "src\\Ex01.o" "src\\Ex02.o" "src\\Ex03.o" "src\\Ex04.o" "src\\Ex05.o" "src\\Ex06.o" "src\\Ex07.o" "src\\Ex08.o" "src\\Ex09.o" "src\\Ex10.o" "src\\Ex11.o" "src\\Ex12.o" "src\\Ex13.o" "src\\Ex14.o" "src\\Ex15.o" "src\\Ex16.o" "src\\Ex17.o" "src\\Ex18.o" "src\\Ex19.o" "src\\Ex20.o" "src\\ch05-function.o" 
+17:38:26 **** Incremental Build of configuration Debug for project ch05-function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex09-globalvariable.o" "..\\src\\Ex09-globalvariable.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex10-staticvar.o" "..\\src\\Ex10-staticvar.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex11-externvar.o" "..\\src\\Ex11-externvar.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex04.o" "..\\src\\Ex04.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex06-localvariable.o" "..\\src\\Ex06-localvariable.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex12.o" "..\\src\\Ex12.c" 
+gcc -o ch05-function.exe "src\\Ex01.o" "src\\Ex02.o" "src\\Ex03.o" "src\\Ex04.o" "src\\Ex05.o" "src\\Ex06-localvariable.o" "src\\Ex07.o" "src\\Ex08.o" "src\\Ex09-globalvariable.o" "src\\Ex10-staticvar.o" "src\\Ex11-externvar.o" "src\\Ex12.o" "src\\Ex13.o" "src\\Ex14.o" "src\\Ex15.o" "src\\Ex16.o" "src\\Ex17.o" "src\\Ex18.o" "src\\Ex19.o" "src\\Ex20.o" "src\\ch05-function.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ch05-function.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:40:04 **** Incremental Build of configuration Debug for project ch05-function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex12.o" "..\\src\\Ex12.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex13.o" "..\\src\\Ex13.c" 
+gcc -o ch05-function.exe "src\\Ex01.o" "src\\Ex02.o" "src\\Ex03.o" "src\\Ex04.o" "src\\Ex05.o" "src\\Ex06-localvariable.o" "src\\Ex07.o" "src\\Ex08.o" "src\\Ex09-globalvariable.o" "src\\Ex10-staticvar.o" "src\\Ex11-externvar.o" "src\\Ex12.o" "src\\Ex13.o" "src\\Ex14.o" "src\\Ex15.o" "src\\Ex16.o" "src\\Ex17.o" "src\\Ex18.o" "src\\Ex19.o" "src\\Ex20.o" "src\\ch05-function.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ch05-function.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:40:28 **** Incremental Build of configuration Debug for project ch05-function ****
+Info: Internal Builder is used for build
+gcc -o ch05-function.exe "src\\Ex01.o" "src\\Ex02.o" "src\\Ex03.o" "src\\Ex04.o" "src\\Ex05.o" "src\\Ex06-localvariable.o" "src\\Ex07.o" "src\\Ex08.o" "src\\Ex09-globalvariable.o" "src\\Ex10-staticvar.o" "src\\Ex11-externvar.o" "src\\Ex12.o" "src\\Ex13.o" "src\\Ex14.o" "src\\Ex15.o" "src\\Ex16.o" "src\\Ex17.o" "src\\Ex18.o" "src\\Ex19.o" "src\\Ex20.o" "src\\ch05-function.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ch05-function.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:47:07 **** Incremental Build of configuration Debug for project ch05-function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex12.o" "..\\src\\Ex12.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex13.o" "..\\src\\Ex13.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex14-resisterVar.o" "..\\src\\Ex14-resisterVar.c" 
+gcc -o ch05-function.exe "src\\Ex01.o" "src\\Ex02.o" "src\\Ex03.o" "src\\Ex04.o" "src\\Ex05.o" "src\\Ex06-localvariable.o" "src\\Ex07.o" "src\\Ex08.o" "src\\Ex09-globalvariable.o" "src\\Ex10-staticvar.o" "src\\Ex11-externvar.o" "src\\Ex12.o" "src\\Ex13.o" "src\\Ex14-resisterVar.o" "src\\Ex15.o" "src\\Ex16.o" "src\\Ex17.o" "src\\Ex18.o" "src\\Ex19.o" "src\\Ex20.o" "src\\ch05-function.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ch05-function.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:48:12 **** Incremental Build of configuration Debug for project ch05-function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex14-resisterVar.o" "..\\src\\Ex14-resisterVar.c" 
+gcc -o ch05-function.exe "src\\Ex01.o" "src\\Ex02.o" "src\\Ex03.o" "src\\Ex04.o" "src\\Ex05.o" "src\\Ex06-localvariable.o" "src\\Ex07.o" "src\\Ex08.o" "src\\Ex09-globalvariable.o" "src\\Ex10-staticvar.o" "src\\Ex11-externvar.o" "src\\Ex12.o" "src\\Ex13.o" "src\\Ex14-resisterVar.o" "src\\Ex15.o" "src\\Ex16.o" "src\\Ex17.o" "src\\Ex18.o" "src\\Ex19.o" "src\\Ex20.o" "src\\ch05-function.o" 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ch05-function.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:48:37 **** Incremental Build of configuration Debug for project ch05-function ****
+Info: Internal Builder is used for build
+gcc -o ch05-function.exe "src\\Ex01.o" "src\\Ex02.o" "src\\Ex03.o" "src\\Ex04.o" "src\\Ex05.o" "src\\Ex06-localvariable.o" "src\\Ex07.o" "src\\Ex08.o" "src\\Ex09-globalvariable.o" "src\\Ex10-staticvar.o" "src\\Ex11-externvar.o" "src\\Ex12.o" "src\\Ex13.o" "src\\Ex14-resisterVar.o" "src\\Ex15.o" "src\\Ex16.o" "src\\Ex17.o" "src\\Ex18.o" "src\\Ex19.o" "src\\Ex20.o" "src\\ch05-function.o" 
